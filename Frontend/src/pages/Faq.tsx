@@ -30,7 +30,7 @@ const faqData = [
   }
 ];
 
-const FAQItem = ({ question, answer, icon, isOpen, onClick, index }: any) => {
+const FAQItem = ({ question, answer, icon, isOpen, onClick }: any) => {
   return (
     <div className="mb-4">
       <button

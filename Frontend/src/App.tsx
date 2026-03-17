@@ -10,7 +10,6 @@ import Deposit from './pages/Deposit';
 import Guide from './pages/Guide';
 import Faq from './pages/Faq';
 
-import { useMolpayStore } from './store/molpayStore';
 import { Toaster } from 'react-hot-toast';
 
 function App() {
