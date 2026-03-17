@@ -1,0 +1,21 @@
+[project]
+name = "molpay"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+[repl.analysis]
+passes = ["check_checker"]
+
+[dashboard]
+enabled = true
+
+[contracts.molpay]
+path = "contracts/molpay.clar"
+clarity_version = 2
+depends_on = ["molpay-analytics"]
+
+[contracts.molpay-analytics]
+path = "contracts/molpay-analytics.clar"
+clarity_version = 2
+depends_on = []
