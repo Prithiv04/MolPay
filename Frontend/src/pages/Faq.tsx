@@ -110,7 +110,6 @@ const Faq = () => {
               {...item} 
               isOpen={openIndex === i} 
               onClick={() => setOpenIndex(openIndex === i ? null : i)}
-              index={i}
             />
           </motion.div>
         ))}
