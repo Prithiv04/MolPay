@@ -1,7 +1,5 @@
 {
-  "version": 2,
-  "public": true,
-  "installCommand": "npm install --legacy-peer-deps",
+  "cleanUrls": true,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
