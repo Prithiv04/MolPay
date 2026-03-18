@@ -2,8 +2,7 @@
   "buildCommand": "npm run build -w Frontend",
   "outputDirectory": "Frontend/dist",
   "cleanUrls": true,
-  "routes": [
-    { "src": "/assets/(.*)", "dest": "/assets/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
