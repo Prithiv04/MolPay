@@ -1,9 +1,13 @@
 {
   "name": "molpay-root",
   "private": true,
+  "workspaces": [
+    "Frontend",
+    "Backend"
+  ],
   "scripts": {
-    "dev": "npm --prefix Frontend run dev",
-    "build": "npm --prefix Frontend run build",
-    "preview": "npm --prefix Frontend run preview"
+    "dev": "npm run dev -w Frontend",
+    "build": "npm run build -w Frontend",
+    "preview": "npm run preview -w Frontend"
   }
 }
